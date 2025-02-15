@@ -2,14 +2,19 @@
   "name": "testing-mocha-js-nodejs",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "tests": "mocha test/*.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.1",
+    "express": "^4.21.2",
     "mocha": "^11.1.0"
   }
 }
